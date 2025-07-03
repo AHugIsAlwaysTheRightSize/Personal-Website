@@ -1,0 +1,45 @@
+body {
+    background-color: #FFFFFC;
+        font-family: "Courier New";
+}
+
+p {
+    color: #0D1B2A;
+}
+
+nav {
+    background-attachment: fixed;
+    background-color: #A0C4FF;
+}
+
+#text {
+    background-color: #A0C4FF;
+    width: 50%;
+}
+
+img {
+    border-radius: 20px;  
+    max-width: 300px;
+}
+
+.guide {
+    background-color: #7B886B;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.guide-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0px;
+    padding: 0px;
+    padding-inline-start: 0px;
+}
+
