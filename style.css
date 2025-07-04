@@ -1,20 +1,26 @@
 body {
-    background-color: #FFFFFC;
-        font-family: "Courier New";
+    background-color: whitesmoke;
+    font-family: "Courier New";
+    color: white;
 }
 
-p {
-    color: #0D1B2A;
-}
+
 
 nav {
     background-attachment: fixed;
-    background-color: #A0C4FF;
+    background-color: #4873B6;
+    padding: .5em;
+    border-radius: 20px;
 }
 
 #text {
-    background-color: #A0C4FF;
+    background-color: #F09CC6;
     width: 50%;
+    height: 200px;
+    min-width: 100px;
+    border-radius: 20px;
+    margin-top: 100px;
+    order: 2;
 }
 
 img {
@@ -22,19 +28,39 @@ img {
     max-width: 300px;
 }
 
-.guide {
-    background-color: #7B886B;
-    margin: 10px;
+.guide, .project {
+    background-color: #4873B6;
+    margin: 20px;
     border-radius: 20px;
-    max-width: 300px;
 }
 
-.guide-list {
+.main-page {
+    display: flex;
+}
+
+
+
+.project {
+    max-width: 600px;
+}
+
+.guide {
+    max-width: 300px;
+
+}
+
+.guide-list  {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     flex-flow: wrap;
+    background-color: #E1F0C4;
+    width: 30%;
+    order: 1;
+    
 }
+
+
 
 ul {
     list-style-type: none;
@@ -43,3 +69,25 @@ ul {
     padding-inline-start: 0px;
 }
 
+
+.nav-button {
+    display: inline;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+li a:hover {
+    background-color: #FAE791;
+}
+
+.yellow-box{
+    align-self: center;
+    background-color: #FFD000;
+    width: 70px;
+    height: 20px;
+}
