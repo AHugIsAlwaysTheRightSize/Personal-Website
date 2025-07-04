@@ -4,6 +4,9 @@ body {
     color: white;
 }
 
+p {
+    font-size: 20px;
+}
 
 
 nav {
@@ -13,14 +16,34 @@ nav {
     border-radius: 20px;
 }
 
-#text {
-    background-color: #F09CC6;
-    width: 50%;
-    height: 200px;
-    min-width: 100px;
+.right-main {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.text, .quote {
+
+    max-width: 50%;
     border-radius: 20px;
     margin-top: 100px;
-    order: 2;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 0px;
+    padding: 5em;
+}
+
+blockquote, h1 {
+    font-size: 50px;
+}
+
+.text {
+    background-color: #F09CC6;
+    margin-bottom: 100px;
+}
+
+.quote { 
+    background-color: #4873B6;
 }
 
 img {
@@ -36,20 +59,23 @@ img {
 
 .main-page {
     display: flex;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 3em;
 }
 
 
 
 .project {
     max-width: 600px;
+    height: 400px;
 }
 
 .guide {
     max-width: 300px;
-
 }
 
-.guide-list  {
+.guide-list {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -57,10 +83,17 @@ img {
     background-color: #E1F0C4;
     width: 30%;
     order: 1;
+    border-radius: 20px;
     
 }
 
-
+.project-list  {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    background-color: #E1F0C4;
+}
 
 ul {
     list-style-type: none;
@@ -81,8 +114,8 @@ ul {
     padding: 1em;
 }
 
-li a:hover {
-    background-color: #FAE791;
+a:hover {
+    background-color: #F09CC6;
 }
 
 .yellow-box{
@@ -90,4 +123,13 @@ li a:hover {
     background-color: #FFD000;
     width: 70px;
     height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.blog-text {
+    color: #F09CC6;
 }
